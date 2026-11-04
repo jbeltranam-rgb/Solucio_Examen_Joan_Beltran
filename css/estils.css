@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+:root {
+    --principal: #1750a1;
+    --fons: #f3f1ec;
+}
+
+body {
+    background-color: var(--fons);
+}
+
+header {
+    background-color: var(--principal);
+    color: white;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+article {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+article{
+    position: relative;
+}
+
+.nou{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    padding: 4px 10px;
+    background-color: #2e7d32;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+
+article img{
+    width: 100%;
+}
