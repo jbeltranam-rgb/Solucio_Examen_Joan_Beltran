@@ -49,6 +49,7 @@ article {
 
 article{
     position: relative;
+    margin: 0 auto;
 }
 
 .nou{
@@ -65,3 +66,30 @@ article{
 article img{
     width: 100%;
 }
+
+main{
+    padding: 20px 16px 0;
+    margin-top: 1%;
+}
+
+.Slogan{
+    display: none;
+}
+@media (min-width: 768px){
+    .Slogan{
+        display: block;
+    }
+
+    nav li{
+        display: inline-block;
+        padding: 20px;
+    }
+
+    article{
+        display: inline-block;
+        width: 48%;
+        margin-top: 1%;
+        margin-right: 1%;
+    }
+}
+
