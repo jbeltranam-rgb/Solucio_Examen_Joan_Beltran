@@ -29,10 +29,20 @@ header {
 
 h1 {
     font-size: 3.2rem;
+    padding: 12px;
 }
 
 h2 {
     font-size: 2.4rem;
+}
+
+nav{
+    padding: 0 5px 5px;
+}
+
+nav ul{
+    list-style: none;
+    
 }
 
 nav a {
@@ -50,6 +60,10 @@ article {
 article{
     position: relative;
     margin: 0 auto;
+}
+
+.Slogan{
+    padding-left: 15px;
 }
 
 .nou{
@@ -75,6 +89,7 @@ main{
 .Slogan{
     display: none;
 }
+
 @media (min-width: 768px){
     .Slogan{
         display: block;

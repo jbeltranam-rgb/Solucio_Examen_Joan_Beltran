@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+figure {
+  margin:0 0 16px;                    
+  background-color: #fff;    
+  border: 1px solid #ccc;    
+}
+
+
+.galeria{
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+img {
+  width: 100%;               
+  display: block;           
+}
+
+figcaption {
+  padding: 10px;           
+}
+
+.km{                   
+  display: none;
+}
+
+
+@media (min-width: 576px) {
+  figure {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .km {
+    display: inline;
+  }
+}
+
+
+@media (min-width: 992px) {
+  figure {
+    width: 31%;              
+  }
+}
+
+@media (min-width: 1200px) {
+  figure {
+    display: inline-block;
+    width: 24%;              
+  }
+}
