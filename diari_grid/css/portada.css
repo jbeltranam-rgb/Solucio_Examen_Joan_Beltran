@@ -196,8 +196,8 @@ img {
 }
 
 .noticies {
-display: grid;
-gap: 24px;
+    display: grid;
+    gap: 24px;
 }
 
 
@@ -209,7 +209,7 @@ gap: 24px;
             "menu menu"
             "principal lateral"
             "noticies noticies"
-            "peu peu";   
+            "peu peu";
     }
 }
 
@@ -223,9 +223,11 @@ gap: 24px;
             "principal principal lateral"
             "noticies noticies lateral"
             "peu peu peu";
+
         .noticies {
             grid-template-columns:
-            repeat(2, 1fr);
+                repeat(2, 1fr);
         }
     }
 }
+
